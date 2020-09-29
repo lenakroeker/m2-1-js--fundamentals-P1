@@ -8,7 +8,7 @@ function exercise5() {
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
   for (let number = 1; number <= 25; number++) {
-    if (number % 2 === 1) {
+    if (number % 2 === 1){
       console.log(number);
     }
   }
