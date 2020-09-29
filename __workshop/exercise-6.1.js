@@ -6,6 +6,11 @@ function exercise6_1() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let num = 0;
+  while(num <= 100){
+    console.log(num);
+    num++
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

@@ -15,6 +15,18 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let grid = ''
+    for(let j = 1; j < 72; j++){
+      if(j % 9 === 0){
+        grid += ','
+      } else if (j % 2 === 0){
+        grid+='_';
+      }else{
+        grid+= '#';
+      }
+    }
+
+  console.log(grid);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

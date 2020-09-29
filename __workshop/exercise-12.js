@@ -17,6 +17,22 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let primes = []
+
+  for(let i = 2; i <= 200; i++){
+    let notPrime = false;
+      for(let j = 2; j < i; j++){
+        if(i % j === 0 && j !== i){
+           notPrime = true;
+        }
+      }
+    if (notPrime === false){
+      primes.push(i);
+    } 
+
+  }
+
+  console.log(primes);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

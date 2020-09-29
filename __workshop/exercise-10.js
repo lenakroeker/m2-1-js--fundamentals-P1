@@ -13,6 +13,11 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let tree = '#';
+  for(let i = 0; i < 7; i++){
+    console.log(tree);
+    tree += '#';
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

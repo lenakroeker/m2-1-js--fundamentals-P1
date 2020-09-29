@@ -20,6 +20,14 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let arr = [0, 1];
+
+  for(let i = 1; i <= 50; i++){
+    let next = arr[i] + arr[i-1];
+    arr.push(next);
+  }
+
+  console.log(arr[49]);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
